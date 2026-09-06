@@ -3,45 +3,42 @@
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/john-o-groats-signpost (1).jpg', alt: 'John o\' Groats Signpost 照片 1' },
-  { src: '/gallery/john-o-groats-signpost (2).jpg', alt: 'John o\' Groats Signpost 照片 2' },
-  { src: '/gallery/john-o-groats-signpost (3).jpg', alt: 'John o\' Groats Signpost 照片 3' },
-  { src: '/gallery/john-o-groats-signpost (4).jpg', alt: 'John o\' Groats Signpost 照片 4' },
-  { src: '/gallery/john-o-groats-signpost (5).jpg', alt: 'John o\' Groats Signpost 照片 5' },
-  { src: '/gallery/john-o-groats-signpost (6).jpg', alt: 'John o\' Groats Signpost 照片 6' },
-  { src: '/gallery/john-o-groats-signpost (7).jpg', alt: 'John o\' Groats Signpost 照片 7' },
-  { src: '/gallery/john-o-groats-signpost (8).jpg', alt: 'John o\' Groats Signpost 照片 8' },
-  { src: '/gallery/john-o-groats-signpost (9).jpg', alt: 'John o\' Groats Signpost 照片 9' },
-  { src: '/gallery/john-o-groats-signpost (10).jpg', alt: 'John o\' Groats Signpost 照片 10' },
-  { src: '/gallery/john-o-groats-signpost (11).jpg', alt: 'John o\' Groats Signpost 照片 11' },
-  { src: '/gallery/john-o-groats-signpost (12).jpg', alt: 'John o\' Groats Signpost 照片 12' },
-  { src: '/gallery/john-o-groats-signpost (13).jpg', alt: 'John o\' Groats Signpost 照片 13' },
-  { src: '/gallery/john-o-groats-signpost (14).jpg', alt: 'John o\' Groats Signpost 照片 14' },
-  { src: '/gallery/john-o-groats-signpost (15).jpg', alt: 'John o\' Groats Signpost 照片 15' },
-  { src: '/gallery/john-o-groats-signpost (16).jpg', alt: 'John o\' Groats Signpost 照片 16' },
-  { src: '/gallery/john-o-groats-signpost (17).jpg', alt: 'John o\' Groats Signpost 照片 17' },
-  { src: '/gallery/john-o-groats-signpost (18).jpg', alt: 'John o\' Groats Signpost 照片 18' },
-  { src: '/gallery/john-o-groats-signpost (19).jpg', alt: 'John o\' Groats Signpost 照片 19' },
-  { src: '/gallery/john-o-groats-signpost (20).jpg', alt: 'John o\' Groats Signpost 照片 20' },
-  { src: '/gallery/john-o-groats-signpost (21).jpg', alt: 'John o\' Groats Signpost 照片 21' },
-  { src: '/gallery/john-o-groats-signpost (22).jpg', alt: 'John o\' Groats Signpost 照片 22' },
-  { src: '/gallery/john-o-groats-signpost (23).jpg', alt: 'John o\' Groats Signpost 照片 23' },
-  { src: '/gallery/john-o-groats-signpost (24).jpg', alt: 'John o\' Groats Signpost 照片 24' },
-];
+const TOTAL_PHOTOS = 24;
+
+// Canonical filename pattern: john-o-groats-signpost-{n}.jpg
+const photoSrcs = Array.from(
+  { length: TOTAL_PHOTOS },
+  (_, i) => `/gallery/john-o-groats-signpost-${i + 1}.jpg`
+);
+
+// Lightweight variants used for the grid thumbnails; lightbox keeps the full files.
+const photoGridSrcs = photoSrcs.map((src) => src.replace(/\.jpg$/i, '-grid.jpg'));
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const captions: string[] = (messages?.gallery?.captions || []) as string[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
+  // Semantic image alt binding: entity name + location + localised caption
+  const photoAlt = useCallback(
+    (index: number): string => {
+      const fallback = `John o' Groats Signpost, Wick, Scotland - photo ${index + 1}`;
+      const caption = captions[index];
+      if (!caption) return fallback;
+      return `${caption} - John o' Groats Signpost, Wick, Scotland`;
+    },
+    [captions]
+  );
+
   const goToPrevious = useCallback(() => {
-    setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
+    setCurrentIndex((prev) => (prev === photoSrcs.length - 1 ? 0 : prev - 1));
   }, []);
 
   const goToNext = useCallback(() => {
-    setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
+    setCurrentIndex((prev) => (prev === photoSrcs.length - 1 ? 0 : prev + 1));
   }, []);
 
   const openLightbox = () => setIsLightboxOpen(true);
@@ -62,7 +59,7 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {(showAll ? photos : photos.slice(0, 8)).map((photo, i) => (
+              {(showAll ? photoGridSrcs : photoGridSrcs.slice(0, 8)).map((src, i) => (
                 <div
                   key={i}
                   className={`gallery-item relative group cursor-pointer ${i === 0 && !showAll ? 'col-span-2 row-span-2' : ''}`}
@@ -72,15 +69,15 @@ export default function Gallery() {
                   }}
                 >
                   <img
-                    src={photo.src}
-                    alt={photo.alt}
+                    src={src}
+                    alt={photoAlt(i)}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
+                      {photoAlt(i)}
                     </p>
                   </div>
                 </div>
@@ -111,13 +108,13 @@ export default function Gallery() {
             )}
 
             <div className="flex justify-center mt-6 gap-4 items-center">
-              {!showAll && photos.length > 8 && (
+              {!showAll && photoSrcs.length > 8 && (
                 <button
                   onClick={() => setShowAll(true)}
                   className="text-sm hover:underline font-medium"
                   style={{ color: 'var(--accent)' }}
                 >
-                  {t('showAll') || `View All ${photos.length} Photos`}
+                  {t('showAll') || `View All ${photoSrcs.length} Photos`}
                 </button>
               )}
               {showAll && (
@@ -170,8 +167,8 @@ export default function Gallery() {
           </button>
 
           <img
-            src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
+            src={photoSrcs[currentIndex]}
+            alt={photoAlt(currentIndex)}
             className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
           />
@@ -187,7 +184,7 @@ export default function Gallery() {
           </button>
 
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
-            {currentIndex + 1} / {photos.length}
+            {currentIndex + 1} / {photoSrcs.length}
           </div>
         </div>
       )}

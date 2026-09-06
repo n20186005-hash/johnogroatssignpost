@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "John o' Groats 路标｜苏格兰著名地标 - 完整游览指南",
-    "description": "探索苏格兰 John o' Groats 路标的完整指南。了解这一标志性地标、地理位置和游览信息。发现英国大陆的最北端。"
+    "title": "John o' Groats 路标（威克）｜游客指南与位置",
+    "description": "探索位于英国苏格兰高地威克（Wick）的 John o' Groats 路标这一标志性景点。查看位置地图、开放信息、附近的邓卡斯比角（Duncansby Head）、奥克尼群岛及旅行建议。"
   },
   "header": {
     "home": "首页",
@@ -11,16 +11,19 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "John o' Groats 路标",
-    "subtitle": "标志性地标 - 苏格兰东北端",
-    "rating": "4.5(7,801)",
-    "reviewCount": "7,801 条评价",
+    "title": "John o' Groats 路标（威克）",
+    "subtitle": "标志性地标 - 英国本土最东北端",
+    "rating": "4.5(8,228)",
+    "reviewCount": "8,228 条评价",
     "type": "旅游景点 · 苏格兰必游",
     "openMaps": "查看位置"
   },
   "intro": {
-    "title": "探索 John o' Groats 路标",
-    "description": "John o' Groats 路标是苏格兰最著名的地标之一，位于英国大陆的东北端。这个标志性的路标标记着到康沃尔郡兰兹角（Land's End）的传统距离，使其成为完成英国端到端旅程的旅行者的热门目的地。\n\n路标矗立在小村庄 John o' Groats，该村以 Jan de Groot 命名，他是一位在15世纪经营前往奥克尼群岛渡轮服务的荷兰人。该地区提供彭特兰海峡和奥克尼群岛的壮丽海岸景色。\n\n作为英国大陆可通过公路到达的最北端，John o' Groats 吸引着来自世界各地的游客前来拍摄著名的路标，欣赏戏剧性的海岸风光，并体验苏格兰远北的独特氛围。",
+    "title": "探索 John o' Groats 路标（威克）",
+    "equivalence": "欢迎来到 John o' Groats 路标（John o' Groats Signpost），它被广泛视为 John o' Groats 的标志性景点。该景点位于英国苏格兰高地威克附近的 John o' Groats 村庄，标志着英国本土的最东北端，是前往该地区旅行者的主要目的地。",
+    "cluster": "参观 John o' Groats 路标时，游客可以轻松探索周边历史地标与景点，包括邓卡斯比角（Duncansby Head）和奥克尼群岛（Orkney Islands）。",
+    "breadcrumb": ["John o' Groats 路标", "威克", "高地", "英国"],
+    "description": "John o' Groats 路标是苏格兰最著名的地标之一，位于英国大陆的东北端。这个标志性的路标标记着到康沃尔郡兰兹角（Land's End）的传统距离，使其成为完成英国端到端旅程的旅行者的热门目的地。\n\n路标矗立在小村庄 John o' Groats，该村以 Jan de Groot 命名，他是一位在15世纪经营前往奥克尼群岛渡轮服务的荷兰人。该地区提供彭特兰海峡和奥克尼群岛的壮丽海岸景色。\n\n矗立于英国本土的东北角，John o' Groats 吸引着来自世界各地的游客前来拍摄著名的路标、欣赏戏剧性的海岸风光并探索苏格兰远北。想了解英国本土真正的最北点，可顺道前往附近的邓尼特角（Dunnet Head）。",
     "visitGuide": {
       "title": "游览建议",
       "items": [
@@ -35,7 +38,7 @@
       "title": "景点特色",
       "items": [
         "标志性的路标，标记到兰兹角的距离（874英里）",
-        "英国大陆可通过公路到达的最北端",
+        "英国本土的最东北端，端到端之旅（LEJOG）的传统起点或终点",
         "彭特兰海峡和奥克尼群岛的壮丽海岸景色",
         "可追溯到15世纪的丰富历史",
         "英国端到端旅程的热门起点或终点"
@@ -43,27 +46,42 @@
     }
   },
   "knowledge": {
-    "title": "关于 John o' Groats 路标",
+    "title": "关于 John o' Groats 路标（威克）",
     "sections": [
       {
         "id": "history",
-        "title": "历史背景",
+        "title": "John o' Groats 路标的历史与意义",
         "content": "John o' Groats 的名字来源于 Jan de Groot，一位在15世纪到达该地区的荷兰人。他经营着横渡彭特兰海峡到奥克尼的渡轮服务，当时奥克尼是丹麦-挪威的一部分。'John o' Groats' 这个名字是 'Jan de Groot' 的苏格兰语变体。\n\n标记到康沃尔郡兰兹角距离（874英里/1,407公里）的著名路标已成为横跨大不列颠端到端旅程的持久象征。成千上万的自行车手、步行者和驾车者在这个标志性地点开始或结束他们的史诗般旅程。"
       },
       {
         "id": "location",
-        "title": "地理位置",
+        "title": "John o' Groats 路标的位置与地理（威克）",
         "content": "John o' Groats 位于苏格兰高地议会区，在英国大陆的东北端。坐标约为北纬58.6353°，西经3.0671°。\n\n该地区坐落在彭特兰海峡，这是一片将苏格兰大陆与奥克尼群岛分隔开的危险水域。海岸线拥有戏剧性的悬崖、海栈和壮观的海洋景色。尽管位置偏远，John o' Groats 可通过公路（A9和A99）到达，并已成为受欢迎的旅游目的地。"
       },
       {
         "id": "attractions",
-        "title": "附近景点",
+        "title": "John o' Groats 周边地标与景点",
         "content": "虽然路标是主要景点，但 John o' Groats 地区提供更多。John o' Groats 渡轮提供到奥克尼群岛的定期服务，游客可以在那里探索斯卡拉布雷（Skara Brae）和布罗德加石圈（Ring of Brodgar）等古代新石器时代遗址。\n\n附近的邓卡斯比角（Duncansby Head）拥有苏格兰一些最引人注目的海岸风光，拥有高耸的海崖和海鸟栖息地。野生动物爱好者可以在彭特兰海峡的水域中发现海鹦、海豹甚至虎鲸。该地区在冬季也是观赏北极光的热门地点。"
       },
       {
         "id": "culture",
-        "title": "文化意义",
+        "title": "John o' Groats 路标的文化意义",
         "content": "John o' Groats 已成为英国的文化象征，代表着终极的端到端旅程。'从兰兹角到 John o' Groats' 这个短语与覆盖大不列颠整个长度同义。\n\n多年来，路标本身体因磨损和破坏已被更换多次，但每个版本都保持相同的基本设计。它已被拍摄数百万次，出现在无数旅游指南中，使其成为世界上最可识别的路旁地标之一。"
+      },
+      {
+        "id": "legend",
+        "title": "Jan de Groot 与八门之屋的传说",
+        "content": "相传为村庄命名的荷兰摆渡人 Jan de Groot 曾在岸边修建了一座奇特的八角形房屋，每面墙都开着一扇门。故事说，他的一大家子人总是为谁该坐在上座而争吵不休，于是他在屋中设了八扇门和八张桌子——每家都有一扇专用入口和一处'上座'——让所有人平等入席。无论真假，这个传说生动刻画了一位宁愿'架桥'也不愿争执的摆渡人。\n\n如今，'John o' Groats'（苏格兰语对荷兰人名 Jan de Groot 的转写）这个名字已为全世界所知，往返苏格兰本土与奥克尼之间的渡轮至今仍沿用他的姓氏，让这位老摆渡人的故事流传至今。"
+      },
+      {
+        "id": "wildlife",
+        "title": "John o' Groats 周边的海岸、潮汐与野生动物",
+        "content": "凯思内斯郡的这一角由风、潮汐与大海塑造而成。彭特兰海峡将苏格兰本土与奥克尼之间海水引导成英国海岸最强的海流之一；涨潮时，海面翻涌着当地人称为'roost'的剧烈潮流涡涌。附近的邓卡斯比角海崖与海栈在春夏季节栖息着成群海鸟，岩石间则常见海豹出没。宽吻海豚甚至虎鲸偶尔会游经海峡，晴朗的冬夜里，北极光也可能在天际闪烁。若想探索海岸或崖顶小径，请与崖缘保持安全距离，并先查看当地潮汐时间。"
+      },
+      {
+        "id": "records",
+        "title": "趣味冷知识：真正的最北点与端到端传统",
+        "content": "有两个事实可以帮助你更准确地在地图上定位 John o' Groats。虽然村庄常被称为英国本岛'最北点'，但英国本土真正的最北端其实是略靠西侧的凯思内斯海岸邓尼特角（Dunnet Head）；更准确地说，John o' Groats 是本土的东北端，是著名的'兰兹角—John o' Groats'（LEJOG）旅程传统意义上的起点或终点，现场路标至今仍标着到兰兹角 874 英里（约 1,407 公里）的距离。\n\n一个多世纪以来，这个小小村庄以远超其身量的影响力，见证着慈善挑战、环不列颠远征与无数个人里程碑——这项传统至今未曾停歇。"
       }
     ]
   },
@@ -78,7 +96,7 @@
     "city": "城市",
     "cityValue": "威克，苏格兰高地",
     "googleRating": "谷歌评分",
-    "googleRatingValue": "4.5/5 (7,801)",
+    "googleRatingValue": "4.5/5 (8,228)",
     "phone": "电话",
     "phoneValue": "+44 1955 611373",
     "address": "地址",
@@ -183,6 +201,106 @@
       }
     ]
   },
+  "services": {
+    "title": "游客服务与日常便利设施",
+    "subtitle": "游客最常问到的实用细节：卫生间、停车、餐饮、住宿、购物以及加油充电。",
+    "note": "作为独立的非营利信息网站，我们仅介绍附近可用的服务类型，不推荐任何具体商户。",
+    "items": [
+      {
+        "id": "toilets",
+        "title": "公共卫生间（WC）",
+        "text": "公共卫生间位于村庄港口与游客区附近。这一乡村地区的部分设施按季节开放，建议提前计划。全天开放的大型公共卫生间最近需前往约 25 英里（40 公里）以南的威克（Wick）。"
+      },
+      {
+        "id": "parking",
+        "title": "停车",
+        "text": "路标附近步行距离内设有收费停车场，配有小型汽车车位。夏季下午车位往往紧张。房车与拖挂车驾驶者请留意现场指示，并在停靠前确认当前的过夜停车规定。"
+      },
+      {
+        "id": "food",
+        "title": "餐饮",
+        "text": "村庄内步行即可找到咖啡馆、茶室与外带餐饮，营业时间通常随旅游旺季变化。想要更多餐饮选择，可前往约 35-40 分钟车程外的威克。"
+      },
+      {
+        "id": "accommodation",
+        "title": "住宿",
+        "text": "John o' Groats 村内及周边提供酒店、民宿（B&B）、旅馆与自助式小屋等多种住宿，附近还有露营与房车营地。夏季周末房间有限且预订火爆，建议尽早预订。"
+      },
+      {
+        "id": "shopping",
+        "title": "商超与补给",
+        "text": "游客区附近设有小型本地商店和纪念品商店，可购买日常用品与礼品。如需更齐全的食品杂货与补给，可在 A99 公路沿途城镇（如威克）顺路采购。"
+      },
+      {
+        "id": "fuel",
+        "title": "加油与充电",
+        "text": "John o' Groats 周边加油站稀少，最近的加油站分布在通往威克或瑟索（Thurso）的 A99 公路沿线。该偏远地区电动车充电设施同样有限，出发前请尽量加满油或充足电。"
+      }
+    ]
+  },
+  "weather": {
+    "title": "当地天气与 7 天预报",
+    "subtitle": "John o' Groats 的实时天气与未来一周展望，帮你决定出门是带伞还是戴墨镜。",
+    "currentHeading": "此刻实况",
+    "outlookHeading": "未来 7 天",
+    "feelsLike": "体感温度",
+    "humidity": "湿度",
+    "windSpeedLabel": "风速",
+    "gustsLabel": "阵风",
+    "rainChanceToday": "今日降雨概率",
+    "uvLabel": "紫外线指数",
+    "seaTempLabel": "海水温度",
+    "waveLabel": "浪高",
+    "seaNote": "这一带海岸潮汐流速很快，靠近海边前请先确认当日潮汐时间。",
+    "unavailable": "实时天气数据暂时不可用，出行前请留意当地天气预报。",
+    "adviceTitle": "今日出行建议",
+    "riskTitle": "风险提醒",
+    "noRisk": "今日暂无特别风险提醒，靠近海边时仍请多加小心。",
+    "zoneDress": "出行穿搭",
+    "zonePlay": "游玩安排",
+    "zoneGear": "随身物品",
+    "risk_heavyRain": "降雨较强，请避开山谷与低洼地带，注意路面湿滑。",
+    "risk_thunder": "谨防雷电：不要在空旷高地、海边戏水，也不要在大树下避雨。",
+    "risk_gale": "大风天气：远离广告牌、海边礁石与崖边，注意头顶易落物。",
+    "risk_fog": "能见度较差：轮渡与航班可能延误，请预留更多时间。",
+    "risk_ice": "气温接近冰点，路面可能结冰，行走请防滑慢行。",
+    "risk_heat": "天气炎热：避免正午外出，谨防中暑。",
+    "risk_wave": "海边风浪较大，请远离礁石、崖缘与水边。",
+    "play_fair": "天气晴好，适合户外游览，也适合看日出日落与拍照。",
+    "play_cloudy": "光线柔和、无暴晒，适合长时间户外步行或摄影。",
+    "play_rainP": "降雨概率较高，建议优先安排室内场馆，户外行程请灵活调整。",
+    "play_drizzle": "有小雨，露天体验一般，更适合海边短程散步或室内休息点。",
+    "play_rain": "降雨会使户外游览体验较差，游船等水上项目可能暂停，请留意现场公告。",
+    "play_storm": "雷雨期间水上与露天游玩项目大概率关闭，请待在安全室内。",
+    "play_wind": "风力较大，海边游船及部分户外项目可能停运，出发前请先确认。",
+    "play_fog": "有雾时观景看海效果不佳，小径边缘视野不清，不适合登高观景。",
+    "play_snow": "雪天路面湿滑，请走已清理的路线，山区小径注意安全。",
+    "play_heat": "午后较热，请缩短户外游玩时间，避开正午时段。",
+    "play_seaCool": "今日海水温度偏低，下水时间宜短，结束后注意保暖。",
+    "play_seaWave": "海浪较大，请勿在礁石区嬉水，遵守海边安全护栏。",
+    "dress_rain": "有降雨，建议穿防水外套或冲锋衣。",
+    "dress_cold": "气温偏低且风大，体感更冷，建议穿保暖外套、方便增减。",
+    "dress_range": "昼夜温差较大，建议备一件可穿脱的外套，早晚及时增减。",
+    "dress_hot": "天气较热，建议穿轻薄透气的衣物。",
+    "gear_umbrella": "建议随身带一把折叠伞。",
+    "gear_raincoat": "建议携带雨衣或防水外套，大风天别带长柄伞。",
+    "gear_sun": "紫外线较强，请备好防晒霜、墨镜与遮阳帽。",
+    "gear_hydrate": "天气炎热，请带足饮用水与防暑用品。",
+    "gear_warm": "建议带一件厚外套、围巾或手套。",
+    "gear_hatWind": "风较大，帽子、伞易被吹走，请收好随身松散物品。",
+    "gear_bright": "能见度低，穿亮色衣物更醒目，途经海边与公路更安全。",
+    "d_clear": "晴",
+    "d_mainlyClear": "晴间多云",
+    "d_partlyCloudy": "多云",
+    "d_overcast": "阴",
+    "d_fog": "雾",
+    "d_drizzle": "毛毛雨",
+    "d_rain": "雨",
+    "d_snow": "雪",
+    "d_rainShowers": "阵雨",
+    "d_snowShowers": "阵雪",
+    "d_thunderstorm": "雷暴"
+  },
   "gallery": {
     "title": "精彩照片",
     "subtitle": "John o' Groats 路标 - 威克，苏格兰",
@@ -212,6 +330,8 @@
     "title": "游客评价",
     "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
     "moreReviews": "在 Google Maps 查看更多评价",
+    "googleRatingShort": "4.5 / 5",
+    "reviewCount": "8,228 条 Google 评价",
     "items": [
       {
         "name": "Emma W.",
@@ -240,9 +360,74 @@
     ]
   },
   "mapSection": {
-    "title": "交通指南",
+    "title": "John o' Groats 路标（威克）地图与位置",
     "subtitle": "John o' Groats, Wick KW1 4YR, United Kingdom",
     "openMaps": "在 Google Maps 查看"
+  },
+  "faq": {
+    "title": "关于 John o' Groats 路标（威克）的常见问题",
+    "items": [
+      {
+        "q": "John o' Groats 路标在哪里？",
+        "a": "John o' Groats 路标位于英国苏格兰高地威克附近的 John o' Groats 村庄（邮编 KW1 4YR），地处英国本土可通过公路到达的最东北端。"
+      },
+      {
+        "q": "参观 John o' Groats 路标免费吗？",
+        "a": "是的。John o' Groats 路标是公共户外地标，全年 24 小时免费开放。附近设有付费停车场。"
+      },
+      {
+        "q": "John o' Groats 路标距离兰兹角有多远？",
+        "a": "路标标记着距康沃尔郡兰兹角（Land's End）874 英里（约 1,407 公里）的距离，这是穿越英国的传统端到端旅程。"
+      },
+      {
+        "q": "如何从威克前往 John o' Groats 路标？",
+        "a": "威克位于 John o' Groats 西南约 25 英里（40 公里）。沿 A99 公路向东北行驶约 35-40 分钟即可到达。威克和因弗内斯也有公共巴士服务。"
+      },
+      {
+        "q": "什么时间最适合参观 John o' Groats 路标？",
+        "a": "最佳游览时间为 5 月至 9 月，此时白昼最长、天气最温和。夏季日照时间最长，冬季虽然白昼很短，但有机会看到北极光。"
+      },
+      {
+        "q": "John o' Groats 路标附近有哪些地标？",
+        "a": "附近亮点包括邓卡斯比角（Duncansby Head）及其壮观的海栈、前往奥克尼群岛的 John o' Groats 渡轮，以及北海海岸500（North Coast 500）路线。"
+      },
+      {
+        "q": "可以从 John o' Groats 乘渡轮前往奥克尼群岛吗？",
+        "a": "可以。John o' Groats 渡轮提供前往奥克尼群岛的季节性客运航线，Pentland Ferries 则从附近的 Gills Bay 运营车辆渡轮。出行前请查看最新时刻表。"
+      }
+    ]
+  },
+  "sources": {
+    "title": "资料来源与参考",
+    "intro": "本游览指南为独立整理编写，所使用资料来自官方及权威公开信息源，包括 Google Maps 列表、国家级旅游机构与地方政府。建议读者通过下方机构直接核实最新信息。",
+    "items": [
+      {
+        "name": "VisitScotland - John o' Groats",
+        "url": "https://www.visitscotland.com/places-to-go/highlands/john-o-groats",
+        "desc": "苏格兰国家旅游机构对 John o' Groats 的官方介绍。"
+      },
+      {
+        "name": "高地议会 (Highland Council)",
+        "url": "https://www.highland.gov.uk/",
+        "desc": "负责包括威克与 John o' Groats 在内的高地地区的地方政府。"
+      },
+      {
+        "name": "苏格兰历史环境局 (Historic Environment Scotland)",
+        "url": "https://www.historicenvironment.scot/",
+        "desc": "苏格兰遗产机构，提供历史地标背景资料。"
+      },
+      {
+        "name": "苏格兰自然局 (NatureScot)",
+        "url": "https://www.nature.scot/",
+        "desc": "苏格兰自然机构，涵盖沿海野生动植物与栖息地信息。"
+      },
+      {
+        "name": "John o' Groats 路标 - Google Maps",
+        "url": "https://maps.app.goo.gl/PvPKgVs1QyTnjNFu8",
+        "desc": "包含游客评分与评价的官方 Google Maps 列表。"
+      }
+    ],
+    "imageCredit": "本网站所展示的所有图片产权及版权均归原摄影者所有。"
   },
   "footer": {
     "rights": "© 2026 John o' Groats 路标独立旅游研究协会 · 保留所有权利。",
@@ -324,7 +509,7 @@
   },
   "officialManagement": {
     "title": "关于 John o' Groats 路标",
-    "text": "John o' Groats 路标是苏格兰最著名的地标之一，位于英国大陆的东北端。这个标志性的路标标记着到康沃尔郡兰兹角（Land's End）的传统距离，使其成为完成英国端到端旅程的旅行者的热门目的地。\n\n路标矗立在小村庄 John o' Groats，该村以 Jan de Groot 命名，他是一位在15世纪经营前往奥克尼群岛渡轮服务的荷兰人。该地区提供彭特兰海峡和奥克尼群岛的壮丽海岸景色。\n\n作为英国大陆可通过公路到达的最北端，John o' Groats 吸引着来自世界各地的游客前来拍摄著名的路标，欣赏戏剧性的海岸风光，并体验苏格兰远北的独特氛围。"
+    "text": "John o' Groats 路标是苏格兰最著名的地标之一，位于英国大陆的东北端。这个标志性的路标标记着到康沃尔郡兰兹角（Land's End）的传统距离，使其成为完成英国端到端旅程的旅行者的热门目的地。\n\n路标矗立在小村庄 John o' Groats，该村以 Jan de Groot 命名，他是一位在15世纪经营前往奥克尼群岛渡轮服务的荷兰人。该地区提供彭特兰海峡和奥克尼群岛的壮丽海岸景色。\n\n从英国本土的这个东北角出发，John o' Groats 吸引着来自世界各地的游客前来拍摄著名的路标，欣赏戏剧性的海岸风光，并体验苏格兰远北的独特氛围。"
   },
   "recommendations": {
     "title": "",

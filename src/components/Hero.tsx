@@ -8,9 +8,11 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/john-o-groats-signpost (21).jpg"
-          alt="John o' Groats Signpost"
+          src="/gallery/john-o-groats-signpost-21.jpg"
+          alt="John o' Groats Signpost - Main view in Wick, Scotland, United Kingdom"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>

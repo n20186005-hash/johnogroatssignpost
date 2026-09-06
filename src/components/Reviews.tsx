@@ -1,4 +1,5 @@
 import { useTranslations, useMessages } from 'next-intl';
+import { MAPS_SHARE_URL } from '@/lib/site';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -47,6 +48,49 @@ export default function Reviews() {
           {t('declaration')}
         </p>
 
+        {/* Official Google listing aggregate rating */}
+        <div className="flex justify-center mb-10">
+          <a
+            href={MAPS_SHARE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-3 rounded-full px-5 py-2.5 transition-all hover:shadow-md"
+            style={{
+              background: 'var(--bg-tertiary)',
+              border: '1px solid var(--border-color)',
+            }}
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#f0b429" stroke="none">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            <span
+              className="text-lg font-bold leading-none"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {t('googleRatingShort')}
+            </span>
+            <span
+              className="text-sm leading-none"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {t('reviewCount')}
+            </span>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              style={{ color: 'var(--text-secondary)' }}
+              className="group-hover:translate-x-0.5 transition-transform"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
           {items.map((review, i) => (
             <div
@@ -90,7 +134,7 @@ export default function Reviews() {
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">
           <a
-            href="https://maps.app.goo.gl/PvPKgVs1QyTnjNFu8"
+            href={MAPS_SHARE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"

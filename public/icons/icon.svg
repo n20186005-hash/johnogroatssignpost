@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#234d5c"/>
+  <ellipse cx="256" cy="452" rx="120" ry="16" fill="#142d1c" opacity="0.45"/>
+  <rect x="228" y="210" width="56" height="242" rx="16" fill="#f5f0e8"/>
+  <rect x="104" y="150" width="304" height="72" rx="12" fill="#f5f0e8"/>
+  <path d="M120 158 L64 186 L120 214 Z" fill="#d4843d"/>
+  <path d="M392 158 L448 186 L392 214 Z" fill="#d4843d"/>
+  <text x="256" y="198" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="600" fill="#234d5c">John o' Groats</text>
+</svg>

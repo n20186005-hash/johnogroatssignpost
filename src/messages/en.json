@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "John o' Groats Signpost | Famous Landmark - Complete Visitor Guide",
-    "description": "Complete guide to John o' Groats Signpost in Scotland. Learn about this iconic landmark, its location, visiting information, and travel tips. Discover the northernmost point of mainland Britain."
+    "title": "John o' Groats Signpost (Wick) - Visitor Guide & Location",
+    "description": "Discover John o' Groats Signpost, the iconic landmark in Wick, Highland, Scotland, United Kingdom. View the location map, opening details, nearby Duncansby Head, Orkney Islands and travel tips."
   },
   "header": {
     "home": "Home",
@@ -11,16 +11,19 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "John o' Groats Signpost",
-    "subtitle": "Iconic Landmark - The Northeastern Tip of Scotland",
-    "rating": "4.5(7,801)",
-    "reviewCount": "7,801 reviews",
+    "title": "John o' Groats Signpost (Wick)",
+    "subtitle": "Iconic Landmark - The Northeastern Tip of Mainland Britain",
+    "rating": "4.5(8,228)",
+    "reviewCount": "8,228 reviews",
     "type": "Tourist Attraction · Scotland Must-Visit",
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Discover John o' Groats Signpost",
-    "description": "John o' Groats Signpost is one of Scotland's most famous landmarks, located at the northeastern tip of mainland Britain. This iconic signpost marks the traditional distance to Land's End in Cornwall, making it a popular destination for travelers completing the end-to-end journey of Great Britain.\n\nThe signpost stands in the small village of John o' Groats, named after Jan de Groot, a Dutchman who operated a ferry service to Orkney in the 15th century. The area offers stunning coastal views of the Pentland Firth and the Orkney Islands.\n\nAs the northernmost point accessible by road on mainland Britain, John o' Groats attracts visitors from around the world who come to photograph the famous signpost, enjoy the dramatic coastal scenery, and experience the unique atmosphere of Scotland's far north.",
+    "title": "Discover John o' Groats Signpost (Wick)",
+    "equivalence": "Welcome to John o' Groats Signpost, widely recognized as the iconic landmark of John o' Groats. Situated in the village of John o' Groats, near Wick in Highland, Scotland, United Kingdom, this destination marks the northeastern tip of mainland Britain and serves as a primary hub for travelers visiting the region.",
+    "cluster": "When visiting John o' Groats Signpost, visitors can easily explore surrounding historical landmarks and points of interest, including Duncansby Head and the Orkney Islands.",
+    "breadcrumb": ["John o' Groats Signpost", "Wick", "Highland", "United Kingdom"],
+    "description": "John o' Groats Signpost is one of Scotland's most famous landmarks, located at the northeastern tip of mainland Britain. This iconic signpost marks the traditional distance to Land's End in Cornwall, making it a popular destination for travelers completing the end-to-end journey of Great Britain.\n\nThe signpost stands in the small village of John o' Groats, named after Jan de Groot, a Dutchman who operated a ferry service to Orkney in the 15th century. The area offers stunning coastal views of the Pentland Firth and the Orkney Islands.\n\nStanding at the north-eastern corner of mainland Britain, John o' Groats attracts visitors from around the world who come to photograph the famous signpost, enjoy the dramatic coastal scenery, and explore Scotland's far north. Travellers curious about the truly northernmost point of the island can continue to nearby Dunnet Head.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -35,7 +38,7 @@
       "title": "What Makes It Special",
       "items": [
         "Iconic signpost marking the distance to Land's End (874 miles)",
-        "Northernmost point of mainland Britain accessible by road",
+        "North-eastern extremity of mainland Britain and the traditional start/finish of the LEJOG route",
         "Stunning coastal views of Pentland Firth and Orkney Islands",
         "Rich history dating back to the 15th century",
         "Popular starting or ending point for end-to-end Britain journeys"
@@ -43,27 +46,42 @@
     }
   },
   "knowledge": {
-    "title": "About John o' Groats Signpost",
+    "title": "About John o' Groats Signpost (Wick)",
     "sections": [
       {
         "id": "history",
-        "title": "Historical Background",
+        "title": "History & Significance of John o' Groats Signpost",
         "content": "John o' Groats takes its name from Jan de Groot, a Dutchman who arrived in the area in the 15th century. He operated a ferry service across the Pentland Firth to Orkney, which was then part of Denmark-Norway. The name 'John o' Groats' is a Scottish corruption of 'Jan de Groot'.\n\nThe famous signpost that marks the distance to Land's End in Cornwall (874 miles/1,407 km) has become an enduring symbol of end-to-end journeys across Great Britain. Thousands of cyclists, walkers, and motorists have started or ended their epic journeys at this iconic spot."
       },
       {
         "id": "location",
-        "title": "Location & Geography",
+        "title": "Location of John o' Groats Signpost in Wick, Highland",
         "content": "John o' Groats is located in the Highland council area of Scotland, at the northeastern tip of mainland Britain. The coordinates are approximately 58.6353° N, 3.0671° W.\n\nThe area sits on the Pentland Firth, a treacherous stretch of water that separates mainland Scotland from the Orkney Islands. The coastline features dramatic cliffs, sea stacks, and stunning oceanic views. Despite its remote location, John o' Groats is accessible by road (the A9 and A99) and has become a popular tourist destination."
       },
       {
         "id": "attractions",
-        "title": "Nearby Attractions",
+        "title": "Landmarks & Attractions Around John o' Groats",
         "content": "While the signpost is the main attraction, the John o' Groats area offers much more. The John o' Groats Ferry provides regular service to Orkney Islands, where visitors can explore ancient Neolithic sites like Skara Brae and the Ring of Brodgar.\n\nThe nearby Duncansby Head features some of the most dramatic coastal scenery in Scotland, with towering sea cliffs and seabird colonies. Wildlife enthusiasts can spot puffins, seals, and even orcas in the waters of the Pentland Firth. The area is also popular for northern lights viewing during winter months."
       },
       {
         "id": "culture",
-        "title": "Cultural Significance",
+        "title": "Cultural Significance of John o' Groats Signpost",
         "content": "John o' Groats has become a cultural symbol in Britain, representing the ultimate end-to-end journey. The phrase 'from Land's End to John o' Groats' is synonymous with covering the entire length of Great Britain.\n\nThe signpost itself has been replaced several times over the years due to wear and vandalism, but each version maintains the same basic design. It has been photographed millions of times and appears in countless travel guides, making it one of the most recognizable roadside landmarks in the world."
+      },
+      {
+        "id": "legend",
+        "title": "The Legend of Jan de Groot & the Eight-Door House",
+        "content": "Local legend holds that Jan de Groot, the Dutch ferryman who gave the village its name, built a remarkable eight-sided house beside the shore with a door in every wall. According to the story, his large family could never agree on who should sit at the head of the table, so he gave the house eight doors and eight tables — one entrance and one 'seat of honour' for each household — allowing everyone to arrive on equal footing. Truth or folklore, the tale perfectly captures the spirit of a man who preferred to build a solution rather than argue.\n\nToday the name 'John o' Groats' (a Scottish rendering of the Dutch Jan de Groot) is recognised around the world, and the ferry crossing between the mainland and Orkney still carries the old ferryman's name, keeping his story alive."
+      },
+      {
+        "id": "wildlife",
+        "title": "Coastline, Tides & Wildlife Around John o' Groats",
+        "content": "This corner of Caithness is shaped by wind, tide and ocean. The Pentland Firth channels some of the strongest tidal currents around the British coast between the mainland and Orkney; when the tide is running, the sea churns with 'roosts' — the local name for violent tidal overfalls. The cliffs and sea stacks of nearby Duncansby Head shelter busy seabird colonies in spring and summer, while seals regularly haul out on the rocks below. Bottlenose dolphins and even orcas occasionally pass through the firth, and on clear dark winter nights the northern lights can shimmer overhead. If you explore the shore or cliff paths, keep well back from the edge and check local tide times first."
+      },
+      {
+        "id": "records",
+        "title": "Fun Facts: Northernmost Point & the End-to-End Tradition",
+        "content": "Two facts help place John o' Groats accurately on the map of Britain. Although the village is often called the island's 'northernmost point', the true northernmost tip of mainland Britain is Dunnet Head on the Caithness coast a little to the west; John o' Groats is better described as the mainland's north-eastern extremity and the conventional start or finish of the famous Land's End to John o' Groats (LEJOG) journey. The signpost at the site still records 874 miles (about 1,407 km) to Land's End.\n\nFor more than a century this small settlement has punched far above its size, hosting charity challenges, round-Britain expeditions and countless personal milestones — an enduring tradition that shows no sign of slowing."
       }
     ]
   },
@@ -78,7 +96,7 @@
     "city": "City",
     "cityValue": "Wick, Highland, Scotland",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.5/5 (7,801)",
+    "googleRatingValue": "4.5/5 (8,228)",
     "phone": "Phone",
     "phoneValue": "+44 1955 611373",
     "address": "Address",
@@ -183,6 +201,106 @@
       }
     ]
   },
+  "services": {
+    "title": "Visitor Services & Everyday Amenities",
+    "subtitle": "Practical details on the facilities travellers usually ask about at John o' Groats: toilets, parking, food, places to stay, shops and fuel.",
+    "note": "As an independent, non-profit information website, we describe only the types of services available and never recommend individual businesses.",
+    "items": [
+      {
+        "id": "toilets",
+        "title": "Public Toilets (WC)",
+        "text": "Public toilets can be found in the village close to the harbour and visitor area. In this rural region facilities are sometimes seasonal, so it is wise to plan ahead. The nearest all-day public conveniences are in Wick, about 25 miles (40 km) to the south."
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "text": "Paid parking is available within a short walk of the signpost, with marked bays for cars. Space can fill quickly on summer afternoons. Motorhome and caravan drivers should follow local signage and check current overnight-parking rules before stopping."
+      },
+      {
+        "id": "food",
+        "title": "Food & Drink",
+        "text": "Within the village you will find cafés, tearooms and takeaway food within easy walking distance of the signpost; opening hours often follow the tourist season. Wick offers the widest choice of restaurants, cafés and food shops, a 35-40 minute drive away."
+      },
+      {
+        "id": "accommodation",
+        "title": "Accommodation",
+        "text": "In and around John o' Groats, places to stay range from hotels and guesthouses to B&Bs and self-catering cottages, with camping and caravan sites nearby. Rooms are limited and summer weekends book out early, so reserve well in advance."
+      },
+      {
+        "id": "shopping",
+        "title": "Shops & Supplies",
+        "text": "A small local store and souvenir shops serve the visitor area for everyday essentials and gifts. For groceries and a larger range of supplies, plan a stop in Wick or another town on the A99."
+      },
+      {
+        "id": "fuel",
+        "title": "Fuel & EV Charging",
+        "text": "Fuel stations are scarce immediately around John o' Groats; the closest are found along the A99 towards Wick or Thurso. Electric-vehicle charging is also limited in this remote region, so aim to arrive with a full tank or a topped-up battery."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Local Weather & 7-Day Forecast",
+    "subtitle": "Live conditions and the outlook for the coming week at John o' Groats, so you know whether to grab an umbrella or a pair of sunglasses.",
+    "currentHeading": "Now at the signpost",
+    "outlookHeading": "Next 7 Days",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "windSpeedLabel": "Wind",
+    "gustsLabel": "Gusts",
+    "rainChanceToday": "Rain chance today",
+    "uvLabel": "UV index",
+    "seaTempLabel": "Sea temperature",
+    "waveLabel": "Wave height",
+    "seaNote": "Tides move fast around this coastline — always check tide times before going near the water.",
+    "unavailable": "Live conditions are temporarily unavailable - please check a local forecast before you travel.",
+    "adviceTitle": "Today's travel tips",
+    "riskTitle": "Safety notice",
+    "noRisk": "No weather warnings today - still take extra care near the sea.",
+    "zoneDress": "What to wear",
+    "zonePlay": "What to do",
+    "zoneGear": "What to bring",
+    "risk_heavyRain": "Heavy rain expected - avoid low-lying ground and watch for slippery paths.",
+    "risk_thunder": "Thunderstorm risk - stay off high ground and beaches, and don't shelter under trees.",
+    "risk_gale": "Strong winds expected - keep away from cliff edges, rocks by the sea and anything loose overhead.",
+    "risk_fog": "Poor visibility - ferries and flights can be delayed, so allow extra time.",
+    "risk_ice": "Temperatures near freezing - paths may be icy, so take care walking.",
+    "risk_heat": "Very warm weather - avoid the midday sun and watch for signs of overheating.",
+    "risk_wave": "The sea is rough - stay well back from rocks, cliff edges and the waterline.",
+    "play_fair": "Fine weather - a good day for outdoor sightseeing, sunsets and photos.",
+    "play_cloudy": "Soft light and no harsh sun - comfortable for a long day outside or taking pictures.",
+    "play_rainP": "Rain is likely - plan indoor stops first and keep outdoor plans flexible.",
+    "play_drizzle": "Light rain - coastal walks lose some appeal; a museum or indoor stop works better.",
+    "play_rain": "Rain will make outdoor exploring uncomfortable, and boat or open-air activities may pause.",
+    "play_storm": "While the storm passes, water sports and outdoor attractions are likely to be suspended - stay indoors.",
+    "play_wind": "A windy day - boat trips and some outdoor activities may be cancelled, so check before you go.",
+    "play_fog": "Foggy - sea and cliff views will be poor, and path edges may be hard to see.",
+    "play_snow": "Snow makes paths slippery - stick to cleared routes and take care on hills.",
+    "play_heat": "A hot afternoon - keep outdoor time short and avoid the middle of the day.",
+    "play_seaCool": "The sea is cold today - if you do go in, keep it brief and warm up afterwards.",
+    "play_seaWave": "Waves are building - avoid rocky pools and stay behind any safety barriers.",
+    "dress_rain": "Rain is likely - a waterproof jacket or shell is a good idea.",
+    "dress_cold": "Cold with wind chill - wear a warm coat and layers you can adjust.",
+    "dress_range": "A big swing between morning and night temperatures - bring a jacket you can put on or take off.",
+    "dress_hot": "Warm weather - choose light, breathable clothing.",
+    "gear_umbrella": "A compact umbrella is handy.",
+    "gear_raincoat": "Pack a raincoat or waterproof - on windy days leave the long umbrella at home.",
+    "gear_sun": "Strong sun - bring sunscreen, sunglasses and a sun hat.",
+    "gear_hydrate": "Pack plenty of water and something to help you cool off.",
+    "gear_warm": "Add a thick coat, scarf or gloves.",
+    "gear_hatWind": "Wind can snatch hats and umbrellas - keep loose items secure.",
+    "gear_bright": "In low visibility, bright clothing helps you stay seen near roads and cliffs.",
+    "d_clear": "Clear",
+    "d_mainlyClear": "Mainly clear",
+    "d_partlyCloudy": "Partly cloudy",
+    "d_overcast": "Overcast",
+    "d_fog": "Fog",
+    "d_drizzle": "Drizzle",
+    "d_rain": "Rain",
+    "d_snow": "Snow",
+    "d_rainShowers": "Rain showers",
+    "d_snowShowers": "Snow showers",
+    "d_thunderstorm": "Thunderstorm"
+  },
   "gallery": {
     "title": "Photo Gallery",
     "subtitle": "John o' Groats Signpost - Wick, Scotland",
@@ -212,6 +330,8 @@
     "title": "Visitor Reviews",
     "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
     "moreReviews": "View more reviews on Google Maps",
+    "googleRatingShort": "4.5 / 5",
+    "reviewCount": "8,228 Google reviews",
     "items": [
       {
         "name": "Emma W.",
@@ -240,9 +360,74 @@
     ]
   },
   "mapSection": {
-    "title": "How to Get Here",
+    "title": "Map & Location of John o' Groats Signpost (Wick)",
     "subtitle": "John o' Groats, Wick KW1 4YR, United Kingdom",
     "openMaps": "View on Google Maps"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About John o' Groats Signpost (Wick)",
+    "items": [
+      {
+        "q": "Where is John o' Groats Signpost located?",
+        "a": "John o' Groats Signpost is located in the village of John o' Groats, near Wick (KW1 4YR), in Highland, Scotland, United Kingdom — at the northeastern tip of mainland Britain accessible by road."
+      },
+      {
+        "q": "Is John o' Groats Signpost free to visit?",
+        "a": "Yes, John o' Groats Signpost is a public, outdoor landmark and is free to visit year-round, 24 hours a day. Paid parking is available nearby."
+      },
+      {
+        "q": "What is the distance from John o' Groats Signpost to Land's End?",
+        "a": "The signpost marks 874 miles (about 1,407 km) to Land's End in Cornwall, the traditional end-to-end journey across Great Britain."
+      },
+      {
+        "q": "How do I get to John o' Groats Signpost from Wick?",
+        "a": "Wick is about 25 miles (40 km) southwest of John o' Groats. Follow the A99 road northeast for approximately 35-40 minutes. Public buses also run from Wick and Inverness."
+      },
+      {
+        "q": "What is the best time to visit John o' Groats Signpost?",
+        "a": "The best time to visit is May to September, when the days are longest and the weather is mildest. Summer offers the most daylight, while winter can bring the northern lights but very short days."
+      },
+      {
+        "q": "What landmarks are near John o' Groats Signpost?",
+        "a": "Nearby highlights include Duncansby Head and its dramatic sea stacks, the John o' Groats ferry to the Orkney Islands, and the North Coast 500 route."
+      },
+      {
+        "q": "Can I take a ferry from John o' Groats to the Orkney Islands?",
+        "a": "Yes. The John o' Groats Ferry provides seasonal passenger sailings to the Orkney Islands, while Pentland Ferries operates vehicle ferries from nearby Gills Bay. Please check current schedules before travelling."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & References",
+    "intro": "This visitor guide was independently researched and compiled using public information from official and reputable sources, including Google Maps listings, national tourism bodies and local authorities. We encourage readers to verify current details directly with the organisations listed below.",
+    "items": [
+      {
+        "name": "VisitScotland - John o' Groats",
+        "url": "https://www.visitscotland.com/places-to-go/highlands/john-o-groats",
+        "desc": "Official national tourism organisation guide to John o' Groats."
+      },
+      {
+        "name": "Highland Council",
+        "url": "https://www.highland.gov.uk/",
+        "desc": "Local authority for the Highland area, including Wick and John o' Groats."
+      },
+      {
+        "name": "Historic Environment Scotland",
+        "url": "https://www.historicenvironment.scot/",
+        "desc": "Scotland's heritage body, providing context on historic landmarks."
+      },
+      {
+        "name": "NatureScot",
+        "url": "https://www.nature.scot/",
+        "desc": "Scotland's nature agency, covering coastal wildlife and habitats."
+      },
+      {
+        "name": "John o' Groats Signpost - Google Maps",
+        "url": "https://maps.app.goo.gl/PvPKgVs1QyTnjNFu8",
+        "desc": "Official Google Maps listing with visitor ratings and reviews."
+      }
+    ],
+    "imageCredit": "All images displayed on this website remain the property of their original photographers; all photo rights and copyrights belong to the respective photographers."
   },
   "footer": {
     "rights": "© 2026 John o' Groats Signpost Independent Tourism Research Association · All rights reserved.",
@@ -324,7 +509,7 @@
   },
   "officialManagement": {
     "title": "About John o' Groats Signpost",
-    "text": "John o' Groats Signpost is one of Scotland's most famous landmarks, located at the northeastern tip of mainland Britain. This iconic signpost marks the traditional distance to Land's End in Cornwall, making it a popular destination for travelers completing the end-to-end journey of Great Britain.\n\nThe signpost stands in the small village of John o' Groats, named after Jan de Groot, a Dutchman who operated a ferry service to Orkney in the 15th century. The area offers stunning coastal views of the Pentland Firth and the Orkney Islands.\n\nAs the northernmost point accessible by road on mainland Britain, John o' Groats attracts visitors from around the world who come to photograph the famous signpost, enjoy the dramatic coastal scenery, and experience the unique atmosphere of Scotland's far north."
+    "text": "John o' Groats Signpost is one of Scotland's most famous landmarks, located at the northeastern tip of mainland Britain. This iconic signpost marks the traditional distance to Land's End in Cornwall, making it a popular destination for travelers completing the end-to-end journey of Great Britain.\n\nThe signpost stands in the small village of John o' Groats, named after Jan de Groot, a Dutchman who operated a ferry service to Orkney in the 15th century. The area offers stunning coastal views of the Pentland Firth and the Orkney Islands.\n\nFrom this north-eastern corner of mainland Britain, John o' Groats attracts visitors from around the world who come to photograph the famous signpost, enjoy the dramatic coastal scenery, and experience the unique atmosphere of Scotland's far north."
   },
   "recommendations": {
     "title": "",

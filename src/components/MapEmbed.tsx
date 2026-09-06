@@ -1,7 +1,16 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import {
+  ATTRACTION_SHORT_NAME,
+  ATTRACTION_FULL_NAME,
+  COUNTRY_NAME,
+  MAPS_EMBED_SRC,
+  MAPS_SHARE_URL,
+  GOVT_TOURISM_URL,
+} from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const locale = useLocale();
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -20,26 +29,22 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://maps.google.com/maps?q=John+o%27+Groats+Signpost+Wick+KW1+4YR&output=embed"
+            src={MAPS_EMBED_SRC}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - John o' Groats Signpost"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={`Google Maps - ${ATTRACTION_FULL_NAME}`}
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/PvPKgVs1QyTnjNFu8"
+            href={MAPS_SHARE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -57,6 +62,42 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* Authoritative outbound link */}
+        <p
+          className="mt-8 text-sm leading-relaxed text-center max-w-3xl mx-auto"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          {locale === 'zh' ? (
+            <>
+              {ATTRACTION_FULL_NAME}（{ATTRACTION_SHORT_NAME}）位于{COUNTRY_NAME}。如需获取官方最新信息与区域旅游资讯，请访问{' '}
+              <a
+                href={GOVT_TOURISM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline font-medium"
+                style={{ color: 'var(--accent)' }}
+              >
+                英国苏格兰官方旅游门户（VisitScotland）
+              </a>
+              。
+            </>
+          ) : (
+            <>
+              For official updates and regional tourism information about {ATTRACTION_SHORT_NAME} and {ATTRACTION_FULL_NAME} in {COUNTRY_NAME}, visit{' '}
+              <a
+                href={GOVT_TOURISM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline font-medium"
+                style={{ color: 'var(--accent)' }}
+              >
+                Scotland&apos;s Official Tourism Portal (VisitScotland)
+              </a>
+              .
+            </>
+          )}
+        </p>
       </div>
     </section>
   );
