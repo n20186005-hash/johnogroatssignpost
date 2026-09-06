@@ -1,13 +1,14 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
+import { ORIGIN } from '@/lib/site';
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const baseUrl = 'https://johnogroatssignpost.com';
+  const baseUrl = ORIGIN;
   const zhUrl = `${baseUrl}/zh/cookie-settings`;
   const enUrl = `${baseUrl}/en/cookie-settings`;
 

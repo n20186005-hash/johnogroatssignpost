@@ -2,6 +2,7 @@
 
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
+import { MAPS_SHARE_URL } from '@/lib/site';
 
 const TOTAL_PHOTOS = 24;
 
@@ -127,7 +128,7 @@ export default function Gallery() {
                 </button>
               )}
               <a
-                href="https://maps.app.goo.gl/PvPKgVs1QyTnjNFu8"
+                href={MAPS_SHARE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

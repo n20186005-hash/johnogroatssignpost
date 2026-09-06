@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { ORIGIN } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,7 +9,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://johnogroatssignpost.com';
+  const baseUrl = ORIGIN;
   const zhUrl = `${baseUrl}/zh/privacy-policy`;
   const enUrl = `${baseUrl}/en/privacy-policy`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;

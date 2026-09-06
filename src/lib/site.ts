@@ -1,8 +1,23 @@
 // ---------------------------------------------------------------------------
-// Centralized SEO entity binding configuration for johnogroatssignpost.com
+// Centralized SEO entity binding configuration.
+//
+// The canonical domain can be overridden per deployment via the build-time env:
+//   NEXT_PUBLIC_SITE_DOMAIN=www.example.com
+// The NEXT_PUBLIC_ prefix lets the same constant drive canonical / hreflang /
+// Open Graph / JSON-LD URLs on both server and client bundles without drift.
+// Falls back to the default domain when the variable is not set.
 // ---------------------------------------------------------------------------
 
-export const DOMAIN_NAME = 'johnogroatssignpost.com';
+export const DOMAIN_DEFAULT = 'johnogroatssignpost.com';
+
+function resolveDomain(): string {
+  const fromEnv = process.env.NEXT_PUBLIC_SITE_DOMAIN?.trim();
+  return (fromEnv || DOMAIN_DEFAULT)
+    .replace(/^https?:\/\//i, '')
+    .replace(/\/+$/, '');
+}
+
+export const DOMAIN_NAME = resolveDomain();
 export const ORIGIN = `https://${DOMAIN_NAME}`;
 
 // Entity variables (see single-attraction SEO binding spec)
